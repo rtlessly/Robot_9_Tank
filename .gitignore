@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+
+# Misc
+*.vcxproj.user
+*.0.0.0.vcxproj
