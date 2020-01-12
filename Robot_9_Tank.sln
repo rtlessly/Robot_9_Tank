@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.902
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Robot_9_Tank", "Robot_9_Tank.vcxproj", "{C5F80730-F44F-4478-BDAE-6634EFC2CA88}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RTL_BNO055_IMU-0.0.0", "..\libraries\RTL_BNO055_IMU\RTL_BNO055_IMU-0.0.0.vcxitems", "{B3A8A993-ECEB-441F-94C8-AF718C731063}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RTL_I2C-0.0.0", "..\libraries\RTL_I2C\RTL_I2C-0.0.0.vcxitems", "{C5B586BB-85AF-4AD4-9F2E-D38104BE17DD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RTL_AF_MotorShield_V2-0.0.0", "..\libraries\RTL_AF_MotorShield_V2\RTL_AF_MotorShield_V2-0.0.0.vcxitems", "{E3310163-A266-4B22-BE1E-7DDE967A70C4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RTL_Blinker-0.0.0", "..\libraries\RTL_Blinker\RTL_Blinker-0.0.0.vcxitems", "{4C0A0A1F-C3EE-401E-9006-CBDD90F33C97}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RTL_TaskScheduler-1.0.0", "..\libraries\RTL_TaskScheduler\RTL_TaskScheduler-1.0.0.vcxitems", "{D67A52A9-1ADC-45BA-9E93-624FBEDA8312}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RTL_SonarSensor-0.0.0", "..\libraries\RTL_SonarSensor\RTL_SonarSensor-0.0.0.vcxitems", "{FD43A44A-D0CE-42AA-93E8-183AB0918848}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RTL_IRProximitySensor-0.0.0", "..\libraries\RTL_IRProximitySensor\RTL_IRProximitySensor-0.0.0.vcxitems", "{E5B98C04-B0ED-4C3B-953E-89E3B097EABB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RTL_Motors-0.0.0", "..\libraries\RTL_Motors\RTL_Motors-0.0.0.vcxitems", "{583F5BE6-29A7-4358-94B2-19A3FBA39FA6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RTL_Timer-0.0.0", "..\libraries\RTL_Timer\RTL_Timer-0.0.0.vcxitems", "{3C3A7407-6E24-4426-88CC-2D5DF2A63877}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RTL_Common-0.0.0", "..\libraries\RTL_Common\RTL_Common-0.0.0.vcxitems", "{0665F62B-FF87-4D91-B7E5-6B498D80A5C2}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		..\libraries\RTL_Common\RTL_Common-0.0.0.vcxitems*{0665f62b-ff87-4d91-b7e5-6b498d80a5c2}*SharedItemsImports = 9
+		..\libraries\RTL_Timer\RTL_Timer-0.0.0.vcxitems*{3c3a7407-6e24-4426-88cc-2d5df2a63877}*SharedItemsImports = 9
+		..\libraries\RTL_Blinker\RTL_Blinker-0.0.0.vcxitems*{4c0a0a1f-c3ee-401e-9006-cbdd90f33c97}*SharedItemsImports = 9
+		..\libraries\RTL_Motors\RTL_Motors-0.0.0.vcxitems*{583f5be6-29a7-4358-94b2-19a3fba39fa6}*SharedItemsImports = 9
+		..\libraries\RTL_BNO055_IMU\RTL_BNO055_IMU-0.0.0.vcxitems*{b3a8a993-eceb-441f-94c8-af718c731063}*SharedItemsImports = 9
+		..\libraries\RTL_I2C\RTL_I2C-0.0.0.vcxitems*{c5b586bb-85af-4ad4-9f2e-d38104be17dd}*SharedItemsImports = 9
+		..\libraries\RTL_AF_MotorShield_V2\RTL_AF_MotorShield_V2-0.0.0.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		..\libraries\RTL_Blinker\RTL_Blinker-0.0.0.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		..\libraries\RTL_BNO055_IMU\RTL_BNO055_IMU-0.0.0.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		..\libraries\RTL_Common\RTL_Common-0.0.0.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		..\libraries\RTL_I2C\RTL_I2C-0.0.0.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		..\libraries\RTL_IRProximitySensor\RTL_IRProximitySensor-0.0.0.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		..\libraries\RTL_Motors\RTL_Motors-0.0.0.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		..\libraries\RTL_SonarSensor\RTL_SonarSensor-0.0.0.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		..\libraries\RTL_TaskScheduler\RTL_TaskScheduler-1.0.0.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		..\libraries\RTL_Timer\RTL_Timer-0.0.0.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		..\libraries\RTL_TaskScheduler\RTL_TaskScheduler-1.0.0.vcxitems*{d67a52a9-1adc-45ba-9e93-624fbeda8312}*SharedItemsImports = 9
+		..\libraries\RTL_AF_MotorShield_V2\RTL_AF_MotorShield_V2-0.0.0.vcxitems*{e3310163-a266-4b22-be1e-7dde967a70c4}*SharedItemsImports = 9
+		..\libraries\RTL_IRProximitySensor\RTL_IRProximitySensor-0.0.0.vcxitems*{e5b98c04-b0ed-4c3b-953e-89e3b097eabb}*SharedItemsImports = 9
+		..\libraries\RTL_SonarSensor\RTL_SonarSensor-0.0.0.vcxitems*{fd43a44a-d0ce-42aa-93e8-183ab0918848}*SharedItemsImports = 9
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|x86.ActiveCfg = Debug|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|x86.Build.0 = Debug|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x86.ActiveCfg = Release|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E0409A3A-9609-4070-B7D6-3E0DCF5A8EFA}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,12 @@
+// Hint files help the Visual Studio IDE interpret Visual C++ identifiers
+// such as names of functions and macros.
+// For more information see https://go.microsoft.com/fwlink/?linkid=865984
+#define abs(x) ((x)>0?(x):-(x))
+#define abs(__i) __builtin_abs(__i)
+#define abs(x) fast_abs(x)
+#define UDIFF(x, y) abs(((int32_t)((uint32_t)x - (uint32_t)y)))
+#define TRACE(x)
+// Hint files help the Visual Studio IDE interpret Visual C++ identifiers
+// such as names of functions and macros.
+// For more information see https://go.microsoft.com/fwlink/?linkid=865984
+#define IS_LO(reg, pinMask) (!(*reg & pinMask))

@@ -1,0 +1,363 @@
+Time	State	Method	Dir	ScanAngle	Ping		FilteredPing		Sum			 bestAngle=3	 bestPing=2869
+25802	 StateScanForNewDirection	Poll	1	-90	93	93	97.8		97.8				
+25834	 StateScanForNewDirection	Poll	1	-89	201	294	118.44		216.24				
+25863	 StateScanForNewDirection	Poll	1	-88	169	463	128.552		344.792				
+25894	 StateScanForNewDirection	Poll	1	-87	200	663	142.842		487.634				
+25922	 StateScanForNewDirection	Poll	1	-86	169	832	148.073		635.707				
+25954	 StateScanForNewDirection	Poll	1	-85	199	1031	158.259		793.966				
+25986	 StateScanForNewDirection	Poll	1	-84	199	1230	166.407		960.373				
+26014	 StateScanForNewDirection	Poll	1	-83	170	1400	167.126		1127.499				
+26043	 StateScanForNewDirection	Poll	1	-82	168	1568	167.3		1294.799				
+26075	 StateScanForNewDirection	Poll	1	-81	199	1767	173.64		1468.439	-86	1468.439		
+26106	 StateScanForNewDirection	Poll	1	-80	199	199	178.712		178.712				
+26127	 StateScanForNewDirection	Poll	1	-79	100	299	162.97		341.682				
+26146	 StateScanForNewDirection	Poll	1	-78	100	399	150.376		492.058				
+26167	 StateScanForNewDirection	Poll	1	-77	99	498	140.101		632.159				
+26187	 StateScanForNewDirection	Poll	1	-76	99	597	131.881		764.04				
+26208	 StateScanForNewDirection	Poll	1	-75	98	695	125.104		889.144				
+26240	 StateScanForNewDirection	Poll	1	-74	199	894	139.884		1029.028				
+26263	 StateScanForNewDirection	Poll	1	-73	134	1028	138.707		1167.735				
+26295	 StateScanForNewDirection	Poll	1	-72	200	1228	150.965		1318.7				
+26327	 StateScanForNewDirection	Poll	1	-71	199	1427	160.572		1479.272	-76	1479.272		
+26354	 StateScanForNewDirection	Poll	1	-70	164	164	161.258		161.258				
+26387	 StateScanForNewDirection	Poll	1	-69	200	364	169.006		330.264				
+26415	 StateScanForNewDirection	Poll	1	-68	169	533	169.005		499.269				
+26446	 StateScanForNewDirection	Poll	1	-67	200	733	175.204		674.473				
+26478	 StateScanForNewDirection	Poll	1	-66	200	933	180.163		854.636				
+26510	 StateScanForNewDirection	Poll	1	-65	199	1132	183.931		1038.567				
+26530	 StateScanForNewDirection	Poll	1	-64	98	1230	166.744		1205.311				
+26551	 StateScanForNewDirection	Poll	1	-63	99	1329	153.196		1358.507				
+26570	 StateScanForNewDirection	Poll	1	-62	98	1427	142.156		1500.663				
+26591	 StateScanForNewDirection	Poll	1	-61	98	1525	133.325		1633.988	-66	1633.988		
+26611	 StateScanForNewDirection	Poll	1	-60	98	98	126.26		126.26				
+26643	 StateScanForNewDirection	Poll	1	-59	202	300	141.408		267.668				
+26675	 StateScanForNewDirection	Poll	1	-58	203	503	153.726		421.394				
+26702	 StateScanForNewDirection	Poll	1	-57	159	662	154.781		576.175				
+26734	 StateScanForNewDirection	Poll	1	-56	202	864	164.225		740.4				
+26763	 StateScanForNewDirection	Poll	1	-55	173	1037	165.98		906.38				
+26795	 StateScanForNewDirection	Poll	1	-54	202	1239	173.184		1079.564				
+26823	 StateScanForNewDirection	Poll	1	-53	167	1406	171.947		1251.511				
+26855	 StateScanForNewDirection	Poll	1	-52	202	1608	177.958		1429.469				
+26888	 StateScanForNewDirection	Poll	1	-51	206	1814	183.566		1613.035	-56	1633.988		
+26911	 StateScanForNewDirection	Poll	1	-50	130	130	172.853		172.853				
+26935	 StateScanForNewDirection	Poll	1	-49	128	258	163.882		336.735				
+26963	 StateScanForNewDirection	Poll	1	-48	168	426	164.706		501.441				
+26995	 StateScanForNewDirection	Poll	1	-47	204	630	172.565		674.006				
+27023	 StateScanForNewDirection	Poll	1	-46	160	790	170.052		844.058				
+27056	 StateScanForNewDirection	Poll	1	-45	208	998	177.641		1021.699				
+27088	 StateScanForNewDirection	Poll	1	-44	209	1207	183.913		1205.612				
+27112	 StateScanForNewDirection	Poll	1	-43	130	1337	173.131		1378.743				
+27145	 StateScanForNewDirection	Poll	1	-42	209	1546	180.304		1559.047				
+27179	 StateScanForNewDirection	Poll	1	-41	217	1763	187.644		1746.691	-46	1746.691		
+27203	 StateScanForNewDirection	Poll	1	-40	134	134	176.915		176.915				
+27239	 StateScanForNewDirection	Poll	1	-39	235	369	188.532		365.447				
+27278	 StateScanForNewDirection	Poll	1	-38	264	633	203.626		569.073				
+27317	 StateScanForNewDirection	Poll	1	-37	264	897	215.7		784.773				
+27357	 StateScanForNewDirection	Poll	1	-36	264	1161	225.36		1010.133				
+27396	 StateScanForNewDirection	Poll	1	-35	265	1426	233.288		1243.421				
+27435	 StateScanForNewDirection	Poll	1	-34	265	1691	239.631		1483.052				
+27474	 StateScanForNewDirection	Poll	1	-33	266	1957	244.905		1727.957				
+27512	 StateScanForNewDirection	Poll	1	-32	255	2212	246.924		1974.881				
+27536	 StateScanForNewDirection	Poll	1	-31	129	2341	223.339		2198.22	-36	2198.22		
+27575	 StateScanForNewDirection	Poll	1	-30	265	265	231.671		231.671				
+27603	 StateScanForNewDirection	Poll	1	-29	173	438	219.937		451.608				
+27638	 StateScanForNewDirection	Poll	1	-28	221	659	220.15		671.758				
+27677	 StateScanForNewDirection	Poll	1	-27	266	925	229.32		901.078				
+27716	 StateScanForNewDirection	Poll	1	-26	266	1191	236.656		1137.734				
+27755	 StateScanForNewDirection	Poll	1	-25	254	1445	240.125		1377.859				
+27794	 StateScanForNewDirection	Poll	1	-24	265	1710	245.1		1622.959				
+27832	 StateScanForNewDirection	Poll	1	-23	256	1966	247.28		1870.239				
+27854	 StateScanForNewDirection	Poll	1	-22	117	2083	221.224		2091.463				
+27893	 StateScanForNewDirection	Poll	1	-21	266	2349	230.179		2321.642	-26	2321.642		
+27918	 StateScanForNewDirection	Poll	1	-20	130	130	210.143		210.143				
+27957	 StateScanForNewDirection	Poll	1	-19	266	396	221.315		431.458				
+27995	 StateScanForNewDirection	Poll	1	-18	254	650	227.852		659.31				
+28035	 StateScanForNewDirection	Poll	1	-17	267	917	235.681		894.991				
+28075	 StateScanForNewDirection	Poll	1	-16	273	1190	243.145		1138.136				
+28113	 StateScanForNewDirection	Poll	1	-15	268	1458	248.116		1386.252				
+28152	 StateScanForNewDirection	Poll	1	-14	260	1718	250.493		1636.745				
+28174	 StateScanForNewDirection	Poll	1	-13	112	1830	222.794		1859.539				
+28214	 StateScanForNewDirection	Poll	1	-12	269	2099	232.035		2091.574				
+28260	 StateScanForNewDirection	Poll	1	-11	320	2419	249.628		2341.202	-16	2341.202		
+28306	 StateScanForNewDirection	Poll	1	-10	326	326	264.903		264.903				
+28347	 StateScanForNewDirection	Poll	1	-9	285	611	268.922		533.825				
+28387	 StateScanForNewDirection	Poll	1	-8	273	884	269.738		803.563				
+28427	 StateScanForNewDirection	Poll	1	-7	273	1157	270.39		1073.953				
+28467	 StateScanForNewDirection	Poll	1	-6	267	1424	269.712		1343.665				
+28505	 StateScanForNewDirection	Poll	1	-5	259	1683	267.57		1611.235				
+28548	 StateScanForNewDirection	Poll	1	-4	291	1974	272.256		1883.491				
+28566	 StateScanForNewDirection	Poll	1	-3	90	2064	235.805		2119.296				
+28600	 StateScanForNewDirection	Poll	1	-2	217	2281	232.044		2351.34				
+28645	 StateScanForNewDirection	Poll	1	-1	319	2600	249.435		2600.775	-6	2600.775		
+28687	 StateScanForNewDirection	Poll	1	0	290	290	257.548		257.548				
+28727	 StateScanForNewDirection	Poll	1	1	274	564	260.838		518.386				
+28767	 StateScanForNewDirection	Poll	1	2	273	837	263.271		781.657				
+28808	 StateScanForNewDirection	Poll	1	3	273	1110	265.217		1046.874				
+28848	 StateScanForNewDirection	Poll	1	4	273	1383	266.773		1313.647				
+28888	 StateScanForNewDirection	Poll	1	5	273	1656	268.019		1581.666				
+28928	 StateScanForNewDirection	Poll	1	6	274	1930	269.215		1850.881				
+28967	 StateScanForNewDirection	Poll	1	7	273	2203	269.972		2120.853				
+29005	 StateScanForNewDirection	Poll	1	8	257	2460	267.378		2388.231				
+29047	 StateScanForNewDirection	Poll	1	9	290	2750	271.902		2660.133	4	2660.133		
+29087	 StateScanForNewDirection	Poll	1	10	274	274	272.322		272.322				
+29127	 StateScanForNewDirection	Poll	1	11	273	547	272.457		544.779				
+29167	 StateScanForNewDirection	Poll	1	12	272	819	272.366		817.145				
+29207	 StateScanForNewDirection	Poll	1	13	273	1092	272.493		1089.638				
+29225	 StateScanForNewDirection	Poll	1	14	84	1176	234.794		1324.432				
+29253	 StateScanForNewDirection	Poll	1	15	164	1340	220.635		1545.067				
+29282	 StateScanForNewDirection	Poll	1	16	174	1514	211.308		1756.375				
+29304	 StateScanForNewDirection	Poll	1	17	112	1626	191.447		1947.822				
+29347	 StateScanForNewDirection	Poll	1	18	304	1930	213.957		2161.779				
+29387	 StateScanForNewDirection	Poll	1	19	272	2202	225.566		2387.345	14	2660.133		
+29427	 StateScanForNewDirection	Poll	1	20	273	273	235.053		235.053				
+29467	 StateScanForNewDirection	Poll	1	21	277	550	243.442		478.495				
+29499	 StateScanForNewDirection	Poll	1	22	197	747	234.154		712.649				
+29535	 StateScanForNewDirection	Poll	1	23	242	989	235.723		948.372				
+29561	 StateScanForNewDirection	Poll	1	24	150	1139	218.578		1166.95				
+29597	 StateScanForNewDirection	Poll	1	25	241	1380	223.063		1390.013				
+29634	 StateScanForNewDirection	Poll	1	26	242	1622	226.85		1616.863				
+29656	 StateScanForNewDirection	Poll	1	27	116	1738	204.68		1821.543				
+29684	 StateScanForNewDirection	Poll	1	28	170	1908	197.744		2019.287				
+29702	 StateScanForNewDirection	Poll	1	29	74	1982	172.995		2192.282	24	2660.133		
+29739	 StateScanForNewDirection	Poll	1	30	240	240	186.396		186.396				
+29765	 StateScanForNewDirection	Poll	1	31	157	397	180.517		366.913				
+29783	 StateScanForNewDirection	Poll	1	32	73	470	159.014		525.927				
+29799	 StateScanForNewDirection	Poll	1	33	72	542	141.611		667.538				
+29816	 StateScanForNewDirection	Poll	1	34	73	615	127.889		795.427				
+29839	 StateScanForNewDirection	Poll	1	35	116	731	125.511		920.938				
+29864	 StateScanForNewDirection	Poll	1	36	149	880	130.209		1051.147				
+29880	 StateScanForNewDirection	Poll	1	37	60	940	116.167		1167.314				
+29905	 StateScanForNewDirection	Poll	1	38	144	1084	121.734		1289.048				
+29921	 StateScanForNewDirection	Poll	1	39	57	1141	108.787		1397.835	34	2660.133		
+29936	 StateScanForNewDirection	Poll	1	40	55	55	98.03		98.03				
+29958	 StateScanForNewDirection	Poll	1	41	116	171	101.624		199.654				
+29983	 StateScanForNewDirection	Poll	1	42	147	318	110.699		310.353				
+29999	 StateScanForNewDirection	Poll	1	43	53	371	99.159		409.512				
+30024	 StateScanForNewDirection	Poll	1	44	146	517	108.527		518.039				
+30039	 StateScanForNewDirection	Poll	1	45	52	569	97.222		615.261				
+30064	 StateScanForNewDirection	Poll	1	46	146	715	106.977		722.238				
+30080	 StateScanForNewDirection	Poll	1	47	51	766	95.782		818.02				
+30105	 StateScanForNewDirection	Poll	1	48	153	919	107.226		925.246				
+30119	 StateScanForNewDirection	Poll	1	49	50	969	95.78		1021.026	44	2660.133		
+30145	 StateScanForNewDirection	Poll	1	50	143	143	105.224		105.224				
+30159	 StateScanForNewDirection	Poll	1	51	49	192	93.98		199.204				
+30175	 StateScanForNewDirection	Poll	1	52	54	246	85.984		285.188				
+30188	 StateScanForNewDirection	Poll	1	53	46	292	77.987		363.175				
+30202	 StateScanForNewDirection	Poll	1	54	49	341	72.19		435.365				
+30217	 StateScanForNewDirection	Poll	1	55	48	389	67.352		502.717				
+30236	 StateScanForNewDirection	Poll	1	56	91	480	72.081		574.798				
+30256	 StateScanForNewDirection	Poll	1	57	91	571	75.865		650.663				
+30274	 StateScanForNewDirection	Poll	1	58	90	661	78.692		729.355				
+30294	 StateScanForNewDirection	Poll	1	59	90	751	80.954		810.309	54	2660.133		
+30308	 StateScanForNewDirection	Poll	1	60	47	47	74.163		74.163				
+30321	 StateScanForNewDirection	Poll	1	61	48	95	68.93		143.093				
+30336	 StateScanForNewDirection	Poll	1	62	49	144	64.944		208.037				
+30355	 StateScanForNewDirection	Poll	1	63	90	234	69.955		277.992				
+30369	 StateScanForNewDirection	Poll	1	64	45	279	64.964		342.956				
+30384	 StateScanForNewDirection	Poll	1	65	49	328	61.771		404.727				
+30402	 StateScanForNewDirection	Poll	1	66	87	415	66.817		471.544				
+30425	 StateScanForNewDirection	Poll	1	67	124	539	78.254		549.798				
+30445	 StateScanForNewDirection	Poll	1	68	98	637	82.203		632.001				
+30465	 StateScanForNewDirection	Poll	1	69	98	735	85.362		717.363	64	2660.133		
+30485	 StateScanForNewDirection	Poll	1	70	103	103	88.89		88.89				
+30504	 StateScanForNewDirection	Poll	1	71	95	198	90.112		179.002				
+30525	 StateScanForNewDirection	Poll	1	72	101	299	92.29		271.292				
+30544	 StateScanForNewDirection	Poll	1	73	96	395	93.032		364.324				
+30565	 StateScanForNewDirection	Poll	1	74	98	493	94.025		458.349				
+30585	 StateScanForNewDirection	Poll	1	75	102	595	95.62		553.969				
+30605	 StateScanForNewDirection	Poll	1	76	95	690	95.496		649.465				
+30625	 StateScanForNewDirection	Poll	1	77	102	792	96.797		746.262				
+30645	 StateScanForNewDirection	Poll	1	78	95	887	96.438		842.7				
+30665	 StateScanForNewDirection	Poll	1	79	102	989	97.55		940.25	74	2660.133		
+30686	 StateScanForNewDirection	Poll	1	80	99	99	97.84		97.84				
+30705	 StateScanForNewDirection	Poll	1	81	95	194	97.272		195.112				
+30726	 StateScanForNewDirection	Poll	1	82	102	296	98.218		293.33				
+30745	 StateScanForNewDirection	Poll	1	83	94	390	97.374		390.704				
+30766	 StateScanForNewDirection	Poll	1	84	101	491	98.099		488.803				
+30785	 StateScanForNewDirection	Poll	1	85	99	590	98.279		587.082				
+30806	 StateScanForNewDirection	Poll	1	86	99	689	98.424		685.506				
+30826	 StateScanForNewDirection	Poll	1	87	99	788	98.539		784.045				
+30849	 StateScanForNewDirection	Poll	1	88	122	910	103.231		887.276				
+30866	 StateScanForNewDirection	Poll	1	89	80	990	98.585		985.861	84	2660.133		
+30885	 StateScanForNewDirection	Poll	1	90	94	94	97.668		97.668				
+30903	 StateScanForNewDirection	Poll	-1	90	122	216	102.534		200.202				
+30926	 StateScanForNewDirection	Poll	-1	89	122	338	106.427		306.629				
+30949	 StateScanForNewDirection	Poll	-1	88	121	459	109.342		415.971				
+30971	 StateScanForNewDirection	Poll	-1	87	119	578	111.274		527.245				
+30994	 StateScanForNewDirection	Poll	-1	86	122	700	113.419		640.664				
+31017	 StateScanForNewDirection	Poll	-1	85	123	823	115.335		755.999				
+31040	 StateScanForNewDirection	Poll	-1	84	121	944	116.468		872.467				
+31063	 StateScanForNewDirection	Poll	-1	83	121	1065	117.374		989.841				
+31085	 StateScanForNewDirection	Poll	-1	82	120	1185	117.9		1107.741	77	2660.133		
+31108	 StateScanForNewDirection	Poll	-1	81	121	121	118.52		118.52				
+31126	 StateScanForNewDirection	Poll	-1	80	79	200	110.616		229.136				
+31145	 StateScanForNewDirection	Poll	-1	79	98	298	108.093		337.229				
+31166	 StateScanForNewDirection	Poll	-1	78	97	395	105.874		443.103				
+31185	 StateScanForNewDirection	Poll	-1	77	97	492	104.099		547.202				
+31205	 StateScanForNewDirection	Poll	-1	76	92	584	101.679		648.881				
+31225	 StateScanForNewDirection	Poll	-1	75	101	685	101.544		750.425				
+31248	 StateScanForNewDirection	Poll	-1	74	119	804	105.035		855.46				
+31266	 StateScanForNewDirection	Poll	-1	73	80	884	100.028		955.488				
+31285	 StateScanForNewDirection	Poll	-1	72	91	975	98.222		1053.71	67	2660.133		
+31305	 StateScanForNewDirection	Poll	-1	71	101	101	98.778		98.778				
+31325	 StateScanForNewDirection	Poll	-1	70	94	195	97.822		196.6				
+31345	 StateScanForNewDirection	Poll	-1	69	102	297	98.658		295.258				
+31368	 StateScanForNewDirection	Poll	-1	68	121	418	103.126		398.384				
+31387	 StateScanForNewDirection	Poll	-1	67	85	503	99.501		497.885				
+31406	 StateScanForNewDirection	Poll	-1	66	85	588	96.601		594.486				
+31425	 StateScanForNewDirection	Poll	-1	65	96	684	96.481		690.967				
+31444	 StateScanForNewDirection	Poll	-1	64	98	782	96.785		787.752				
+31465	 StateScanForNewDirection	Poll	-1	63	103	885	98.028		885.78				
+31484	 StateScanForNewDirection	Poll	-1	62	94	979	97.222		983.002	57	2660.133		
+31501	 StateScanForNewDirection	Poll	-1	61	64	64	90.578		90.578				
+31519	 StateScanForNewDirection	Poll	-1	60	86	150	89.662		180.24				
+31539	 StateScanForNewDirection	Poll	-1	59	87	237	89.13		269.37				
+31557	 StateScanForNewDirection	Poll	-1	58	92	329	89.704		359.074				
+31577	 StateScanForNewDirection	Poll	-1	57	92	421	90.163		449.237				
+31596	 StateScanForNewDirection	Poll	-1	56	89	510	89.93		539.167				
+31614	 StateScanForNewDirection	Poll	-1	55	89	599	89.744		628.911				
+31634	 StateScanForNewDirection	Poll	-1	54	90	689	89.795		718.706				
+31647	 StateScanForNewDirection	Poll	-1	53	46	735	81.036		799.742				
+31662	 StateScanForNewDirection	Poll	-1	52	47	782	74.229		873.971	47	2660.133		
+31676	 StateScanForNewDirection	Poll	-1	51	47	47	68.783		68.783				
+31695	 StateScanForNewDirection	Poll	-1	50	90	137	73.027		141.81				
+31717	 StateScanForNewDirection	Poll	-1	49	116	253	81.621		223.431				
+31754	 StateScanForNewDirection	Poll	-1	48	240	493	113.297		336.728				
+31767	 StateScanForNewDirection	Poll	-1	47	47	540	100.038		436.766				
+31782	 StateScanForNewDirection	Poll	-1	46	49	589	89.83		526.596				
+31797	 StateScanForNewDirection	Poll	-1	45	49	638	81.664		608.26				
+31817	 StateScanForNewDirection	Poll	-1	44	103	741	85.931		694.191				
+31832	 StateScanForNewDirection	Poll	-1	43	52	793	79.145		773.336				
+31846	 StateScanForNewDirection	Poll	-1	42	48	841	72.916		846.252	37	2660.133		
+31860	 StateScanForNewDirection	Poll	-1	41	51	51	68.533		68.533				
+31875	 StateScanForNewDirection	Poll	-1	40	51	102	65.026		133.559				
+31897	 StateScanForNewDirection	Poll	-1	39	116	218	75.221		208.78				
+31923	 StateScanForNewDirection	Poll	-1	38	147	365	89.577		298.357				
+31938	 StateScanForNewDirection	Poll	-1	37	53	418	82.261		380.618				
+31963	 StateScanForNewDirection	Poll	-1	36	147	565	95.209		475.827				
+31978	 StateScanForNewDirection	Poll	-1	35	53	618	86.767		562.594				
+32004	 StateScanForNewDirection	Poll	-1	34	147	765	98.814		661.408				
+32019	 StateScanForNewDirection	Poll	-1	33	56	821	90.251		751.659				
+32045	 StateScanForNewDirection	Poll	-1	32	147	968	101.601		853.26	27	2660.133		
+32061	 StateScanForNewDirection	Poll	-1	31	64	64	94.081		94.081				
+32077	 StateScanForNewDirection	Poll	-1	30	72	136	89.665		183.746				
+32100	 StateScanForNewDirection	Poll	-1	29	117	253	95.132		278.878				
+32125	 StateScanForNewDirection	Poll	-1	28	145	398	105.105		383.983				
+32142	 StateScanForNewDirection	Poll	-1	27	72	470	98.484		482.467				
+32159	 StateScanForNewDirection	Poll	-1	26	73	543	93.387		575.854				
+32185	 StateScanForNewDirection	Poll	-1	25	148	691	104.31		680.164				
+32202	 StateScanForNewDirection	Poll	-1	24	74	765	98.248		778.412				
+32224	 StateScanForNewDirection	Poll	-1	23	115	880	101.598		880.01				
+32245	 StateScanForNewDirection	Poll	-1	22	103	983	101.879		981.889	17	2660.133		
+32279	 StateScanForNewDirection	Poll	-1	21	221	221	125.703		125.703				
+32305	 StateScanForNewDirection	Poll	-1	20	149	370	130.362		256.065				
+32340	 StateScanForNewDirection	Poll	-1	19	230	600	150.29		406.355				
+32365	 StateScanForNewDirection	Poll	-1	18	146	746	149.432		555.787				
+32399	 StateScanForNewDirection	Poll	-1	17	214	960	162.346		718.133				
+32427	 StateScanForNewDirection	Poll	-1	16	162	1122	162.276		880.409				
+32464	 StateScanForNewDirection	Poll	-1	15	259	1381	181.621		1062.03				
+32487	 StateScanForNewDirection	Poll	-1	14	112	1493	167.697		1229.727				
+32521	 StateScanForNewDirection	Poll	-1	13	226	1719	179.358		1409.085				
+32565	 StateScanForNewDirection	Poll	-1	12	303	2022	204.086		1613.171	7	2660.133		
+32586	 StateScanForNewDirection	Poll	-1	11	112	112	185.669		185.669				
+32625	 StateScanForNewDirection	Poll	-1	10	258	370	200.135		385.804				
+32647	 StateScanForNewDirection	Poll	-1	9	117	487	183.508		569.312				
+32680	 StateScanForNewDirection	Poll	-1	8	219	706	190.606		759.918				
+32707	 StateScanForNewDirection	Poll	-1	7	154	860	183.285		943.203				
+32741	 StateScanForNewDirection	Poll	-1	6	217	1077	190.028		1133.231				
+32768	 StateScanForNewDirection	Poll	-1	5	155	1232	183.023		1316.254				
+32800	 StateScanForNewDirection	Poll	-1	4	216	1448	189.618		1505.872				
+32846	 StateScanForNewDirection	Poll	-1	3	322	1770	216.094		1721.966				
+32866	 StateScanForNewDirection	Poll	-1	2	91	1861	191.076		1913.042	-3	2660.133		
+32900	 StateScanForNewDirection	Poll	-1	1	219	219	196.66		196.66				
+32945	 StateScanForNewDirection	Poll	-1	0	326	545	222.528		419.188				
+32988	 StateScanForNewDirection	Poll	-1	-1	298	843	237.623		656.811				
+33027	 StateScanForNewDirection	Poll	-1	-2	259	1102	241.898		898.709				
+33046	 StateScanForNewDirection	Poll	-1	-3	91	1193	211.719		1110.428				
+33079	 StateScanForNewDirection	Poll	-1	-4	216	1409	212.575		1323.003				
+33125	 StateScanForNewDirection	Poll	-1	-5	319	1728	233.86		1556.863				
+33145	 StateScanForNewDirection	Poll	-1	-6	102	1830	207.488		1764.351				
+33188	 StateScanForNewDirection	Poll	-1	-7	297	2127	225.39		1989.741				
+33228	 StateScanForNewDirection	Poll	-1	-8	272	2399	234.712		2224.453	-13	2660.133		
+33267	 StateScanForNewDirection	Poll	-1	-9	266	266	240.97		240.97				
+33308	 StateScanForNewDirection	Poll	-1	-10	279	545	248.576		489.546				
+33348	 StateScanForNewDirection	Poll	-1	-11	272	817	253.261		742.807				
+33388	 StateScanForNewDirection	Poll	-1	-12	272	1089	257.009		999.816				
+33428	 StateScanForNewDirection	Poll	-1	-13	271	1360	259.807		1259.623				
+33467	 StateScanForNewDirection	Poll	-1	-14	267	1627	261.245		1520.868				
+33505	 StateScanForNewDirection	Poll	-1	-15	252	1879	259.396		1780.264				
+33541	 StateScanForNewDirection	Poll	-1	-16	235	2114	254.517		2034.781				
+33579	 StateScanForNewDirection	Poll	-1	-17	255	2369	254.614		2289.395				
+33618	 StateScanForNewDirection	Poll	-1	-18	267	2636	257.091		2546.486	-23	2660.133		
+33645	 StateScanForNewDirection	Poll	-1	-19	160	160	237.673		237.673				
+33680	 StateScanForNewDirection	Poll	-1	-20	228	388	235.738		473.411				
+33720	 StateScanForNewDirection	Poll	-1	-21	267	655	241.991		715.402				
+33758	 StateScanForNewDirection	Poll	-1	-22	255	910	244.592		959.994				
+33785	 StateScanForNewDirection	Poll	-1	-23	160	1070	227.674		1187.668				
+33820	 StateScanForNewDirection	Poll	-1	-24	229	1299	227.939		1415.607				
+33859	 StateScanForNewDirection	Poll	-1	-25	266	1565	235.551		1651.158				
+33899	 StateScanForNewDirection	Poll	-1	-26	267	1832	241.841		1892.999				
+33937	 StateScanForNewDirection	Poll	-1	-27	255	2087	244.473		2137.472				
+33965	 StateScanForNewDirection	Poll	-1	-28	164	2251	228.378		2365.85	-33	2660.133		
+34000	 StateScanForNewDirection	Poll	-1	-29	232	232	229.103		229.103				
+34039	 StateScanForNewDirection	Poll	-1	-30	266	498	236.482		465.585				
+34077	 StateScanForNewDirection	Poll	-1	-31	254	752	239.986		705.571				
+34115	 StateScanForNewDirection	Poll	-1	-32	253	1005	242.589		948.16				
+34145	 StateScanForNewDirection	Poll	-1	-33	177	1182	229.471		1177.631				
+34179	 StateScanForNewDirection	Poll	-1	-34	221	1403	227.777		1405.408				
+34219	 StateScanForNewDirection	Poll	-1	-35	265	1668	235.221		1640.629				
+34257	 StateScanForNewDirection	Poll	-1	-36	265	1933	241.177		1881.806				
+34286	 StateScanForNewDirection	Poll	-1	-37	173	2106	227.542		2109.348				
+34320	 StateScanForNewDirection	Poll	-1	-38	219	2325	225.833		2335.181	-43	2660.133		
+34359	 StateScanForNewDirection	Poll	-1	-39	265	265	233.667		233.667				
+34399	 StateScanForNewDirection	Poll	-1	-40	264	529	239.733		473.4				
+34438	 StateScanForNewDirection	Poll	-1	-41	264	793	244.587		717.987				
+34467	 StateScanForNewDirection	Poll	-1	-42	178	971	231.269		949.256				
+34500	 StateScanForNewDirection	Poll	-1	-43	212	1183	227.416		1176.672				
+34525	 StateScanForNewDirection	Poll	-1	-44	135	1318	208.932		1385.604				
+34557	 StateScanForNewDirection	Poll	-1	-45	207	1525	208.546		1594.15				
+34584	 StateScanForNewDirection	Poll	-1	-46	161	1686	199.037		1793.187				
+34617	 StateScanForNewDirection	Poll	-1	-47	205	1891	200.229		1993.416				
+34644	 StateScanForNewDirection	Poll	-1	-48	160	2051	192.184		2185.6	-53	2660.133		
+34676	 StateScanForNewDirection	Poll	-1	-49	208	208	195.347		195.347				
+34704	 StateScanForNewDirection	Poll	-1	-50	160	368	188.277		383.624				
+34737	 StateScanForNewDirection	Poll	-1	-51	207	575	192.022		575.646				
+34764	 StateScanForNewDirection	Poll	-1	-52	160	735	185.618		761.264				
+34796	 StateScanForNewDirection	Poll	-1	-53	207	942	189.894		951.158				
+34825	 StateScanForNewDirection	Poll	-1	-54	166	1108	185.115		1136.273				
+34856	 StateScanForNewDirection	Poll	-1	-55	202	1310	188.492		1324.765				
+34884	 StateScanForNewDirection	Poll	-1	-56	166	1476	183.994		1508.759				
+34917	 StateScanForNewDirection	Poll	-1	-57	202	1678	187.595		1696.354				
+34944	 StateScanForNewDirection	Poll	-1	-58	157	1835	181.476		1877.83	-63	2660.133		
+34975	 StateScanForNewDirection	Poll	-1	-59	203	203	185.781		185.781				
+35004	 StateScanForNewDirection	Poll	-1	-60	173	376	183.225		369.006				
+35037	 StateScanForNewDirection	Poll	-1	-61	202	578	186.98		555.986				
+35063	 StateScanForNewDirection	Poll	-1	-62	158	736	181.184		737.17				
+35095	 StateScanForNewDirection	Poll	-1	-63	202	938	185.347		922.517				
+35125	 StateScanForNewDirection	Poll	-1	-64	174	1112	183.078		1105.595				
+35156	 StateScanForNewDirection	Poll	-1	-65	201	1313	186.662		1292.257				
+35184	 StateScanForNewDirection	Poll	-1	-66	168	1481	182.93		1475.187				
+35216	 StateScanForNewDirection	Poll	-1	-67	201	1682	186.544		1661.731				
+35245	 StateScanForNewDirection	Poll	-1	-68	167	1849	182.635		1844.366	-73	2660.133		
+35276	 StateScanForNewDirection	Poll	-1	-69	201	201	186.308		186.308				
+35304	 StateScanForNewDirection	Poll	-1	-70	167	368	182.446		368.754				
+35337	 StateScanForNewDirection	Poll	-1	-71	200	568	185.957		554.711				
+35364	 StateScanForNewDirection	Poll	-1	-72	167	735	182.166		736.877				
+35396	 StateScanForNewDirection	Poll	-1	-73	201	936	185.933		922.81				
+35425	 StateScanForNewDirection	Poll	-1	-74	168	1104	182.346		1105.156				
+35457	 StateScanForNewDirection	Poll	-1	-75	200	1304	185.877		1291.033				
+35484	 StateScanForNewDirection	Poll	-1	-76	167	1471	182.102		1473.135				
+35516	 StateScanForNewDirection	Poll	-1	-77	201	1672	185.881		1659.016				
+35545	 StateScanForNewDirection	Poll	-1	-78	167	1839	182.105		1841.121	-83	2660.133		
+35576	 StateScanForNewDirection	Poll	-1	-79	201	201	185.884		185.884				
+35604	 StateScanForNewDirection	Poll	-1	-80	168	369	182.307		368.191				
+35636	 StateScanForNewDirection	Poll	-1	-81	201	570	186.046		554.237				
+35664	 StateScanForNewDirection	Poll	-1	-82	167	737	182.237		736.474				
+35696	 StateScanForNewDirection	Poll	-1	-83	202	939	186.189		922.663				
+35724	 StateScanForNewDirection	Poll	-1	-84	166	1105	182.151		1104.814				
+35757	 StateScanForNewDirection	Poll	-1	-85	200	1305	185.721		1290.535				
+35784	 StateScanForNewDirection	Poll	-1	-86	168	1473	182.177		1472.712				
+35816	 StateScanForNewDirection	Poll	-1	-87	201	1674	185.942		1658.654				
+35845	 StateScanForNewDirection	Poll	-1	-88	167	1841	182.153		1840.807	-93	2660.133		
+35876	 StateScanForNewDirection	Poll	-1	-89	202	202	186.123		186.123				
+35904	 StateScanForNewDirection	Poll	-1	-90	166	368	182.098		368.221				
