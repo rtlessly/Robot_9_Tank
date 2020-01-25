@@ -50,7 +50,7 @@ void TaskSpin::Poll()
     // Get current time (in microseconds) and compute delta-T since last check
     // Use UDIFF to compute difference of unsigned numbers (handles 32-bit wrap-around)
     auto t1 = micros();
-    auto deltaT = UDIFF(t1, _t0);
+    auto deltaT = udiff(t1, _t0);
 
     // Need at least 10ms between measurements to ensure we have an updated measurement
     if (deltaT < 10000) return;

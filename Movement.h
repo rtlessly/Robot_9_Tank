@@ -28,10 +28,10 @@ namespace Movement
     void GoBackward(uint32_t duration);
     void GoBackward(uint32_t duration, bool(*predicate)());
     void Turn(char direction);
-    void Spin(int16_t angle);
+    bool Spin(int16_t angle);
     void Spin(char direction);
     void Spin(char direction, uint32_t duration);
-    void Spin180(char direction = 'R');
+    //void Spin180(char direction = 'R');
     void Trim(char direction, int16_t delta);
     void SetMotors(int leftSpeed, int rightSpeed);
     void EnableMotors(bool isEnabled = true);

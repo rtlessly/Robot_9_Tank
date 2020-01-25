@@ -22,7 +22,7 @@ void StateBackupToAvoidObstacle::StateChanging(TaskState newState)
             TRACE(Logger(_classname_) << F("Activating") << endl);
             TaskManager::SetTaskList(nullptr);
             Movement::GoBackward();
-            _timeout = millis() + 500;  // Backup for at least 500 ms (1/2 second)
+            _timeout = millis() + 500;  // Backup for no more than 500 ms (1/2 second)
             Sonar::PanSonar(0);
             break;
 
@@ -39,7 +39,7 @@ void StateBackupToAvoidObstacle::StateChanging(TaskState newState)
 
 void StateBackupToAvoidObstacle::Poll()
 {
-    if ((millis() > _timeout) && (Sonar::MultiPing() > Sonar::THRESHOLD1))
+    if ((millis() > _timeout) || (Sonar::MultiPing() > Sonar::THRESHOLD2))
     {
         TaskManager::SetCurrentState(scanForNewDirectionState);
     }

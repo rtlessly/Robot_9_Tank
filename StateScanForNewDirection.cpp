@@ -65,13 +65,14 @@ void StateScanForNewDirection::Poll()
 
     TRACE(Logger(_classname_) << _scanAngle << ',' << ping << ',' << _bestPing << ',' << _bestAngle << endl);
 
-    if (ping == PING_FAILED) return;
-
-    _windowSum += ping;
-    
-    if (++_windowCount >= SCAN_WINDOW_COUNT)
+    if (ping != PING_FAILED)
     {
-        UpdateBestAngle();
+        _windowSum += ping;
+
+        if (++_windowCount >= SCAN_WINDOW_COUNT)
+        {
+            UpdateBestAngle();
+        }
     }
 
     // Update scan angle
@@ -84,7 +85,6 @@ void StateScanForNewDirection::Poll()
         ScanComplete();
     }
 }
-
 
 
 void StateScanForNewDirection::UpdateBestAngle()
@@ -157,7 +157,7 @@ void StateScanForNewDirection::ScanComplete()
 
     TRACE(Logger(_classname_) << F("bestAngle=") << _bestAngle << F(", bestPing=") << _bestPing << endl);
 
-    if (_bestPing < Sonar::THRESHOLD1)
+    if (_bestPing < Sonar::THRESHOLD3)
     {
         TaskManager::SetCurrentState(reversingDirectionState);
     }

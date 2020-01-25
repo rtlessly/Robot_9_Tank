@@ -20,7 +20,7 @@ namespace Sonar
     // Values > 90 bias to the left, values < 90 bias to the right.
     const int SERVO_BIAS = 94;
 
-    SonarSensor sonar(3, 4);            // Ultrasonic sensor on Arduino pins 2 and 4
+    SonarSensor sonar(3, 4);            // Ultrasonic sensor, trigger pin=3, echo pin=4
     Servo panServo;                     // For panning the ultrasonic sensor left and right
 
     int16_t sonarAngle = 0;
@@ -75,19 +75,19 @@ namespace Sonar
     //**************************************************************************
     // Do a multiple ping measurement.
     //**************************************************************************
-    uint16_t MultiPing(uint8_t numSamples)
+    uint16_t MultiPing()
     {
-        return sonar.MultiPing(numSamples);
+        return sonar.MultiPing();
     }
 
 
-    uint16_t MultiPingAt(int16_t angle, uint8_t numSamples)
+    uint16_t MultiPingAt(int16_t angle)
     {
-        uint32_t servoDelay = 5 * abs(angle - sonarAngle);  // Assume 5ms per degree
+        uint32_t servoDelay = 4 * abs(angle - sonarAngle);  // Assume 4ms per degree
 
         PanSonar(angle);        // Move to ping position
         delay(servoDelay);      // Delay for servo to move to next position
 
-        return MultiPing(numSamples);
+        return sonar.MultiPing();
     }
 }

@@ -26,7 +26,8 @@ class StateMoving : public StateBase
     private: void GoForward();
     private: void ResumeForward();
     private: void Reset();
-    private: void HandleObstacleWarningEvent(const Event * pEvent);
+    private: void ObstacleDetecedBySonar(const Event * pEvent);
+    private: void DetermineNewDirection();
     private: void Turn(char turnDirection);
     private: void StartSpin(char direction);
     private: void EndSpin();

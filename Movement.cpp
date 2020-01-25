@@ -126,7 +126,7 @@ namespace Movement
 
     void Spin(char direction)
     {
-        TRACE(Logger(F("Spin")) << '(' << direction << ')' << endl);
+        TRACE(Logger(F("Spin")) << F("direction=") << direction << ')' << endl);
 
         if (direction == 'R') // Spin to the right
         {
@@ -136,6 +136,46 @@ namespace Movement
         {
             SetMotors(-CRUISE_SPEED, CRUISE_SPEED);
         }
+    }
+
+
+    bool Spin(int16_t angle)
+    {
+        TRACE(Logger(F("Spin")) << F("angle=") << angle << ')' << endl);
+    
+        if (angle == 0) return;
+
+        // Start spin in requested direction
+        Spin(angle < 0 ? 'R' : 'L');
+
+        auto theta = 0.0F;
+        auto now = millis();
+        auto t0 = now; 
+        auto nospin_count = 0;
+        
+        // Set timeout to 3 seconds (about how long a full 360 degree spin takes)
+        for (auto timeout = now + 3000UL; now <= timeout; now = millis())
+        {
+            // Sample every 20 milliseconds
+            if ((now - t0) < 20) continue;
+
+            auto wz = imu.GetGyroRateZ();
+            auto dt = (now - t0) / 1000.0F;
+
+            theta += wz * dt;
+            t0 = now;
+            wdt_reset();
+
+            // If no appreciable rotation detected for 20 samples in a row
+            // then we might be stuck, so abort
+            nospin_count = (fabs(wz) < 5) ? (nospin_count + 1) : 0;
+
+            if (++nospin_count >= 20) return false;
+
+            if (fabs(theta) >= fabs(angle)) return true;    // Success - spin completed
+        }
+
+        return false;   // Failure - spin timed out
     }
 
 

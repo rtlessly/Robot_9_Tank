@@ -71,24 +71,20 @@ StatusReg status;
 //******************************************************************************
 void setup()
 {
+    Serial.begin(115200);
+
     int STEP_INIT_MOTORCTRLR;
     int STEP_INIT_IRREMOTE;
     int STEP_INIT_IMU;
 
     pinMode(LED_PIN, OUTPUT);
 
-    Serial.begin(115200);
-
     I2c.begin();
     I2c.setSpeed(I2C::StdSpeed);
     I2c.pullup(I2C::DisablePullup);
+    //I2c.scan();
 
     imu.Begin();
-
-    //I2c.scan();
-    //Logger() << F("sizeof(Event)=") << sizeof(Event) << endl;
-    //Logger() << F("sizeof(TaskBase)=") << sizeof(TaskBase) << endl;
-    //Logger() << F("sizeof(StateTask)=") << sizeof(StateTask) << endl;
 
     //--------------------------------------------------------------------------
     // Determine if I2C shield exists
