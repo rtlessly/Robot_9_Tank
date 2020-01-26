@@ -26,20 +26,11 @@ class StateMoving : public StateBase
     private: void GoForward();
     private: void ResumeForward();
     private: void Reset();
-    private: void ObstacleDetecedBySonar(const Event * pEvent);
+    //private: void ObstacleDetecedBySonar(const Event * pEvent);
     private: void DetermineNewDirection();
     private: void Turn(char turnDirection);
     private: void StartSpin(char direction);
     private: void EndSpin();
 
     private: bool _isTurning = false;
-
-    // Course PID control variables
-    //private: uint32_t _t0;
-    //private: float _w0;
-    //private: float _h0;
-    //private: float _ei;
-    //private: float _desiredHeading;
-    ////private: float _errorSum;
-    //private: uint32_t _pidTimeout;
 };

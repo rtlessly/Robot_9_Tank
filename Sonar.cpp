@@ -63,7 +63,7 @@ namespace Sonar
     //**************************************************************************
     uint16_t PingAt(int16_t angle)
     {
-        uint32_t servoDelay = 5 * abs(angle - sonarAngle);  // Assume 5ms per degree
+        uint32_t servoDelay = abs(2 * (angle - sonarAngle));  // Assume 4ms per degree
 
         PanSonar(angle);        // Move to ping position
         delay(servoDelay);      // Delay for servo to move to next position
@@ -83,7 +83,7 @@ namespace Sonar
 
     uint16_t MultiPingAt(int16_t angle)
     {
-        uint32_t servoDelay = 4 * abs(angle - sonarAngle);  // Assume 4ms per degree
+        uint32_t servoDelay = abs(2 * (angle - sonarAngle));  // Assume 4ms per degree
 
         PanSonar(angle);        // Move to ping position
         delay(servoDelay);      // Delay for servo to move to next position

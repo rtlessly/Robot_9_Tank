@@ -8,7 +8,7 @@ namespace Sonar
     //**************************************************************************
     // Constants
     //**************************************************************************
-    const uint16_t THRESHOLD1 =  20; // First sonar threshold distance in centimeters (Danger zone)
+    const uint16_t THRESHOLD1 =  30; // First sonar threshold distance in centimeters (Danger zone)
     const uint16_t THRESHOLD2 =  75; // Second sonar threshold distance in centimeters (Obstacle detected)
     const uint16_t THRESHOLD3 = 100; // Third sonar threshold distance in centimeters (Obstacle nearing)
 
