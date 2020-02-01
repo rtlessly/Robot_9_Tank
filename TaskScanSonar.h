@@ -32,11 +32,9 @@ class TaskScanSonar : public TaskBase,
     Constants
     --------------------------------------------------------------------------*/
     public: static constexpr int SCAN_DIRECTION   = -1; // 1=right-to-left, -1=left-to-right
-//    public: static constexpr  int SCAN_RANGE_ANGLE = 90; // +/- degrees from straight ahead
     public: static constexpr int SCAN_INCREMENT   = 15 * SCAN_DIRECTION;    // Angle increment (degrees) between scan positions    
     public: static constexpr int SCAN_START_ANGLE = 90 * (-SCAN_DIRECTION);
     public: static constexpr int SCAN_STOP_ANGLE  = abs(SCAN_START_ANGLE);
-//    public: static constexpr uint8_t SCAN_AHEAD_ANGLE = 5;  // Scan angles <= to this is considered straight ahead
 
     /*--------------------------------------------------------------------------
     Constructors
@@ -67,29 +65,18 @@ class TaskScanSonar : public TaskBase,
     --------------------------------------------------------------------------*/
     private: void PingAheadMode();
     private: void ScanMode();
-    //private: uint16_t Ping();
-    //private: void SumArea(const uint16_t &ping);
-    //private: void MoveToNextPosition();
     private: void SendNotification(uint16_t event, const uint16_t ping, const int16_t scanAngle);
 
-    //private: static const int8_t SCAN_LEFT = -1;
-    //private: static const int8_t SCAN_RIGHT = 1;
     private: static const int8_t MODE_PING_AHEAD = 1;
     private: static const int8_t MODE_SCAN = 2;
 
-    //private: int8_t   _scanDirection = SCAN_RIGHT;
     private: int16_t  _scanAngle = 0;
-
-    //private: uint16_t _leftSum;
-    //private: uint16_t _rightSum;
-
     private: uint16_t _leftArea;
     private: uint16_t _leftBestPing;
     private: uint16_t _leftBestAngle;
     private: uint16_t _rightArea;
     private: uint16_t _rightBestPing;
     private: uint16_t _rightBestAngle;
-
     private: uint8_t  _mode = MODE_PING_AHEAD;
     private: uint8_t  _state = OBSTACLE_NONE_EVENT;
     private: uint8_t  _clearCount = 0;

@@ -63,7 +63,6 @@ class IMU
     Internal implementation
     --------------------------------------------------------------------------*/
     private: RTL_BNO055_IMU _bno055;
-    //private: float _gyroBiasZ = 0.0;
 };
 
 

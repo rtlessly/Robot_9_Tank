@@ -64,12 +64,9 @@ void TaskTurn::Poll()
 }
 
 
-//void TaskTurn::Start(int16_t turnAngle, IEventListener* pNotifyListener)
 void TaskTurn::Start(int16_t turnAngle)
 {
     TRACE(Logger(F("TaskTurn"), F("Start")) << F("angle=") << turnAngle << endl);
-
-    //_pNotifyListener = pNotifyListener;
 
     if (turnAngle != 0)
     {
@@ -95,16 +92,4 @@ void TaskTurn::Complete()
     _currentAngle = 0;
     _targetAngle = 0;
     QueueEvent(TURN_COMPLETE_EVENT);
-
-    //Event event(TURN_COMPLETE_EVENT, 0);
-
-    //QueueEvent(event);
-
-    //if (_pNotifyListener != nullptr)
-    //{
-    //    Event event(TURN_COMPLETE_EVENT, 0);
-
-    //    _pNotifyListener->OnEvent(&event);
-    //    _pNotifyListener = nullptr;
-    //}
 }

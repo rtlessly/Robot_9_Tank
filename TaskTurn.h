@@ -39,6 +39,4 @@ class TaskTurn : public TaskBase,
     private: float _currentAngle = 0;
     private: float _w0;
     private: uint32_t _t0;
-
-    //private: IEventListener* _pNotifyListener = nullptr;
 };

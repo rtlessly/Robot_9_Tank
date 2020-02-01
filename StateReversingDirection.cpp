@@ -57,7 +57,7 @@ void StateReversingDirection::OnEvent(const Event * pEvent)
     {
         case TaskBackup::BACKUP_COMPLETE_EVENT:
             backupTask.Suspend();       // Done backing up
-            spinTask.Start(180);            // Automatically resumes the spinTask
+            spinTask.Start(180);        // Automatically resumes the spinTask
             break;
 
         case TaskSpin::SPIN_COMPLETE_EVENT:

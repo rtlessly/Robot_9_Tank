@@ -38,22 +38,13 @@ void TaskBackup::Poll()
         Suspend();
         _timeout = 0;
         EventQueue::Queue(*this, BACKUP_COMPLETE_EVENT, 0);
-
-        //if (_pNotifyListener != nullptr)
-        //{
-        //    Event event(BACKUP_COMPLETE_EVENT, 0);
-
-        //    _pNotifyListener->OnEvent(&event);
-        //    _pNotifyListener = nullptr;
-        //}
     }
 }
 
 
-void TaskBackup::Start(uint16_t duration) //, IEventListener* pNotifyListener)
+void TaskBackup::Start(uint16_t duration) 
 {
     SetDuration(duration);
-    //_pNotifyListener = pNotifyListener;
     Resume();
 }
 

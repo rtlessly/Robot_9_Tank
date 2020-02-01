@@ -101,9 +101,3 @@ void TaskSpin::Complete()
     _targetAngle = 0;
     QueueEvent(SPIN_COMPLETE_EVENT);
 }
-
-
-//void TaskSpin::PostEvent(EVENT_ID eventCode, variant_t eventData)
-//{
-//    EventQueue::Queue(*this, eventCode, eventData);
-//}

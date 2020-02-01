@@ -80,7 +80,6 @@ class TaskSpin : public TaskBase,
     Internal implementation
     --------------------------------------------------------------------------*/
     private: void Complete();
-    //private: void PostEvent(EVENT_ID eventCode, variant_t eventData = 0L);
 
     private: float _targetAngle = 0;
     private: float _currentAngle = 0;

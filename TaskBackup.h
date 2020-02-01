@@ -35,5 +35,4 @@ class TaskBackup : public TaskBase,
     Internal implementation
     --------------------------------------------------------------------------*/
     private: uint32_t _timeout = 0;
-    //private: IEventListener* _pNotifyListener = nullptr;
 };

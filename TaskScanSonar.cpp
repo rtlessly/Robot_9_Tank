@@ -1,4 +1,4 @@
-#define DEBUG 1
+#define DEBUG 0
 
 #include <Arduino.h>
 
@@ -18,18 +18,7 @@ void TaskScanSonar::StateChanging(TaskState newState)
     {
         case TaskState::Resuming:
             TRACE(Logger(_classname_) << F("Resuming") << endl);
-            //_scanAngle = 0;
-            //_scanDirection = SCAN_RIGHT;
-            //_leftSum = 0;
-            //_rightSum = 0;
-            //_leftArea = 0;
-            //_rightArea = 0;
             SwitchToPingAheadMode();
-            //_clearCount = 0;
-            //_detectCount = 0;
-            //_mode = MODE_PING_AHEAD;
-            //_state = OBSTACLE_NONE_STATE;
-//            Sonar::PanSonar(_scanAngle);
             break;
 
         case TaskState::Suspending:
@@ -53,66 +42,6 @@ void TaskScanSonar::Poll()
     {
         ScanMode();
     }
-
-    return;
-
-    ////auto ping = Sonar::MultiPing();
-    //auto ping = Sonar::Ping();
-    //auto scanAngle = _scanAngle;    // Remember the scan angle that was pinged (subsequent processing could change _scanAngle)
-
-    //if (ping == PING_FAILED)
-    //{
-    //    TRACE(Logger(_classname_, F("Poll")) << F("PING_FAILED") << endl);
-    //    //MoveToNextPosition();
-    //}
-    //else if (ping <= Sonar::THRESHOLD1)
-    //{
-    //    // Danger zone - an obstacle has been detected that is too close
-    //    TRACE(Logger(_classname_, F("Poll")) << F("Obstacle too close") << endl);
-    //    _clearCount = 0;
-    //    _detectCount = 0;
-
-    //    if (_state != OBSTACLE_DANGER_STATE)
-    //    {
-    //        _state = OBSTACLE_DANGER_STATE;
-    //        SumArea(ping);          // Only sum the initial ping when entering state
-    //        SendNotification(OBSTACLE_DANGER_EVENT, ping, scanAngle);
-    //    }
-    //}
-    //else if (ping <= Sonar::THRESHOLD2)
-    //{
-    //    // Detection zone - an obstacle has been detected
-    //    _clearCount = 0;
-
-    //    if (_state != OBSTACLE_DETECTED_STATE)
-    //    {
-    //        if (++_detectCount >= 3)
-    //        {
-    //            _state = OBSTACLE_DETECTED_STATE;
-    //            SumArea(ping);          // Only sum the initial ping when entering state
-    //            SendNotification(OBSTACLE_DETECTED_EVENT, ping, scanAngle);
-    //        }
-    //    }
-    //}
-    //else    // No obstacle detected in range
-    //{
-    //    _detectCount = 0;
-
-    //    if (_state != OBSTACLE_NONE_STATE)
-    //    {
-    //        if (++_clearCount >= 3)
-    //        {
-    //            _state = OBSTACLE_NONE_STATE;
-    //            SendNotification(OBSTACLE_NONE_EVENT, ping, scanAngle);
-    //            MoveToNextPosition();
-    //        }
-    //    }
-    //    else
-    //    {
-    //        SumArea(ping);  // Sum before moving to next position (otherwise the angle would be wrong)
-    //        MoveToNextPosition();
-    //    }
-    //}
 }
 
 
@@ -246,65 +175,6 @@ void TaskScanSonar::SwitchToPingAheadMode()
     _state = OBSTACLE_NONE_STATE;
     Sonar::PanSonar(0);
 }
-
-
-//uint16_t TaskScanSonar::Ping()
-//{
-//    auto ping = Sonar::Ping();
-//
-//    TRACE(Logger(_classname_, F("Ping")) << F("scanAngle=") << _scanAngle << F(", ping=") << ping << endl);
-//
-//    return ping;
-//}
-
-
-//void TaskScanSonar::SumArea(const uint16_t &ping)
-//{
-//    if (ping != PING_FAILED && ping > MIN_DISTANCE)
-//    {
-//        if (_scanAngle > 0)
-//            _leftSum += ping;
-//        else if (_scanAngle < 0)
-//            _rightSum += ping;
-//        else;   // NOTE: _scanAngle == 0 is ambiguous so is ignored
-//    }
-//}
-
-
-//void TaskScanSonar::MoveToNextPosition()
-//{
-//    // Remember the current scan angle before changing it (needed for sign test later)
-//    auto prevScanAngle = _scanAngle;
-//
-//    // If the scan angle is at or past the max angle then change direction
-//    if (abs(_scanAngle) >= SCAN_RANGE_ANGLE) _scanDirection = -_scanDirection;
-//
-//    // Compute the next scan angle
-//    _scanAngle += (_scanDirection * SCAN_INCREMENT);
-//
-//    // Pan the sonar to the new angle.
-//    Sonar::PanSonar(_scanAngle);
-//
-//    // If the scan angle passed through 0 (the sign of _scanAngle flips)
-//    // Then remember the sum for the previous side, and start summing on
-//    // the opposite side.
-//    // NOTE: _scanAngle == 0 is ambiguous so is ignored
-//    if (SIGN(_scanAngle) != SIGN(prevScanAngle))
-//    {
-//        if (_scanAngle > 0)         // Now scanning the left side
-//        {
-//            _rightArea = _rightSum; // remember right area
-//            _leftSum = 0;           // Zero left sum to begin summing left side
-//            TRACE(Logger(_classname_, F("MoveToNextPosition")) << F("_rightArea=") << _rightArea << endl);
-//        }
-//        else if (_scanAngle < 0)    // Now scanning the right side
-//        {
-//            _leftArea = _leftSum;   // remember left area
-//            _rightSum = 0;          // Zero right sum to begin summing right side
-//            TRACE(Logger(_classname_, F("MoveToNextPosition")) << F("_leftArea=") << _leftArea << endl);
-//        }
-//    }
-//}
 
 
 void TaskScanSonar::SendNotification(uint16_t event, const uint16_t ping, const int16_t scanAngle)
